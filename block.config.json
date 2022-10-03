@@ -1,0 +1,13 @@
+{
+  "name": "hello_world",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/hello_world",
+    "ssh": "git@github.com:uttahb/hello_world.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": true
+}
